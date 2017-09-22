@@ -78,11 +78,11 @@ can be made.
 USRP and daughterboards appropriate for the desired GSM frequency band. An external clock is not required; 
 
 `kal` uses the GNU Autoconf system and should be easily built on most *nix platforms.
-                skyshell@skyshell_pc:~/$ ./bootstrap
-                skyshell@skyshell_pc:~/$ ./configure
-                skyshell@skyshell_pc:~/$ make                          
-		skyshell@skyshell_pc:~/$ cd src
-                skyshell@skyshell_pc:~/src$ ./kal -s GSM900
+./bootstrap
+./configure
+make
+cd src
+./kal -s GSM900
 
 		
 ## ChangeLog
